@@ -25,6 +25,16 @@ def jeu_devinette_nombre():
 def est_pair(nombre):
     return nombre % 2 == 0
 
+# dans le fichier fonctions.py
+
+def est_premier(nombre):
+    if nombre < 2:
+        return False
+    for i in range(2, int(nombre**0.5) + 1):
+        if nombre % i == 0:
+            return False
+    return True
+
 # Tests
 if __name__ == "__main__":
     nombre_test = 17
