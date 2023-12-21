@@ -6,6 +6,6 @@ from fonctions import est_pair, jeu_devinette_nombre
 nombre_test = 17
 print(f"Le nombre {nombre_test} est {'pair' if est_pair(nombre_test) else 'impair'}.")
 print("hi")
-
+print("bonjours")
 # Lancer le jeu de devinette de nombre
 jeu_devinette_nombre()
